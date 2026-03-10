@@ -171,24 +171,24 @@ export default function StrengthsAssessment() {
     .intro-badge { font-family: 'DM Sans'; font-size: 11px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: #C8A951; margin-bottom: 32px; padding: 6px 16px; border: 1px solid rgba(200,169,81,0.3); border-radius: 40px; display: inline-block; }
     .intro-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(42px, 7vw, 72px); font-weight: 300; line-height: 1.1; color: #F0EBE1; margin-bottom: 24px; letter-spacing: -0.01em; }
     .intro-title em { font-style: italic; color: #C8A951; }
-    .intro-desc { font-size: 15px; font-weight: 300; color: #8A8680; line-height: 1.75; max-width: 460px; margin-bottom: 16px; }
+    .intro-desc { font-size: 15px; font-weight: 300; color: #A8A49C; line-height: 1.75; max-width: 460px; margin-bottom: 16px; }
     .intro-meta { display: flex; gap: 32px; margin: 32px 0; justify-content: center; }
     .meta-item { display: flex; flex-direction: column; align-items: center; gap: 6px; }
     .meta-num { font-family: 'Cormorant Garamond', serif; font-size: 32px; font-weight: 300; color: #C8A951; }
-    .meta-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #5A5652; }
+    .meta-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #7A7672; }
     .btn-start { margin-top: 16px; padding: 16px 48px; background: #C8A951; color: #0E0E12; font-family: 'DM Sans'; font-size: 13px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; border: none; border-radius: 3px; cursor: pointer; transition: all 0.2s; }
     .btn-start:hover { background: #D4B96A; transform: translateY(-1px); box-shadow: 0 8px 32px rgba(200,169,81,0.3); }
-    .disclaimer { font-size: 11px; color: #3A3830; margin-top: 24px; max-width: 380px; line-height: 1.6; }
+    .disclaimer { font-size: 11px; color: #5A5652; margin-top: 24px; max-width: 380px; line-height: 1.6; }
 
     /* ASSESSMENT */
     .assessment { display: flex; flex-direction: column; min-height: 100vh; padding: 0; }
     .top-bar { padding: 20px 40px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.05); }
-    .top-bar-title { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 300; color: #6A6560; letter-spacing: 0.04em; }
-    .top-bar-count { font-size: 12px; color: #4A4640; font-weight: 300; letter-spacing: 0.06em; }
+    .top-bar-title { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 300; color: #8A8680; letter-spacing: 0.04em; }
+    .top-bar-count { font-size: 12px; color: #6A6560; font-weight: 300; letter-spacing: 0.06em; }
     .progress-wrap { height: 2px; background: rgba(255,255,255,0.06); }
     .progress-bar { height: 100%; background: linear-gradient(90deg, #C8A951, #E07B54); transition: width 0.5s cubic-bezier(0.4,0,0.2,1); }
     .q-main { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 60px 24px; max-width: 680px; margin: 0 auto; width: 100%; }
-    .q-number { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: #3A3830; margin-bottom: 32px; font-weight: 500; }
+    .q-number { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: #5A5652; margin-bottom: 32px; font-weight: 500; }
     .q-text { font-family: 'Cormorant Garamond', serif; font-size: clamp(22px, 3.5vw, 32px); font-weight: 300; line-height: 1.5; color: #F0EBE1; text-align: center; margin-bottom: 56px; letter-spacing: 0.01em; transition: opacity 0.3s; }
     .q-text.fade { opacity: 0; transform: translateY(-8px); }
     .scale-wrap { width: 100%; display: flex; flex-direction: column; gap: 10px; }
@@ -198,7 +198,7 @@ export default function StrengthsAssessment() {
       padding: 14px 8px;
       border: 1px solid rgba(255,255,255,0.08);
       background: rgba(255,255,255,0.02);
-      color: #6A6560;
+      color: #8A8680;
       border-radius: 4px;
       cursor: pointer;
       font-family: 'DM Sans';
@@ -212,7 +212,7 @@ export default function StrengthsAssessment() {
     .scale-btn.selected-5 { border-color: #E07B54; background: rgba(224,123,84,0.12); color: #E07B54; }
     .scale-label { font-size: 9px; letter-spacing: 0.08em; text-align: center; text-transform: uppercase; color: inherit; opacity: 0.6; line-height: 1.3; }
     .scale-labels-row { display: flex; justify-content: space-between; padding: 0 4px; margin-top: 4px; }
-    .scale-labels-row span { font-size: 10px; color: #3A3830; letter-spacing: 0.05em; }
+    .scale-labels-row span { font-size: 10px; color: #6A6560; letter-spacing: 0.05em; }
 
     /* RESULTS */
     .results { min-height: 100vh; padding: 60px 24px 80px; max-width: 840px; margin: 0 auto; }
@@ -220,9 +220,9 @@ export default function StrengthsAssessment() {
     .results-badge { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #C8A951; margin-bottom: 20px; }
     .results-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(36px, 5vw, 52px); font-weight: 300; color: #F0EBE1; line-height: 1.15; margin-bottom: 12px; }
     .results-title em { font-style: italic; color: #C8A951; }
-    .results-sub { font-size: 14px; color: #5A5652; font-weight: 300; }
+    .results-sub { font-size: 14px; color: #7A7672; font-weight: 300; }
     .top5-section { margin-bottom: 64px; }
-    .section-label { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: #4A4640; margin-bottom: 24px; font-weight: 500; }
+    .section-label { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: #6A6560; margin-bottom: 24px; font-weight: 500; }
     .top5-grid { display: flex; flex-direction: column; gap: 16px; }
     .top5-card {
       padding: 28px 32px;
@@ -238,7 +238,7 @@ export default function StrengthsAssessment() {
     .top5-meta { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
     .top5-name { font-family: 'Cormorant Garamond', serif; font-size: 26px; font-weight: 400; color: #F0EBE1; }
     .top5-domain { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.5; }
-    .top5-desc { font-size: 13px; color: #7A7672; line-height: 1.65; font-weight: 300; }
+    .top5-desc { font-size: 13px; color: #9A9690; line-height: 1.65; font-weight: 300; }
     .top5-score-bar { position: absolute; bottom: 0; left: 0; right: 0; height: 2px; opacity: 0.4; }
 
     .all-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
@@ -251,7 +251,7 @@ export default function StrengthsAssessment() {
     }
     .chip-left { display: flex; flex-direction: column; gap: 3px; }
     .chip-name { font-size: 14px; color: #D0CCC4; font-weight: 400; }
-    .chip-domain { font-size: 10px; color: #4A4640; letter-spacing: 0.08em; text-transform: uppercase; }
+    .chip-domain { font-size: 10px; color: #6A6560; letter-spacing: 0.08em; text-transform: uppercase; }
     .chip-rank { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 300; }
     .retake-btn { margin-top: 56px; display: block; width: fit-content; padding: 14px 40px; background: transparent; color: #C8A951; border: 1px solid rgba(200,169,81,0.3); font-family: 'DM Sans'; font-size: 12px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; border-radius: 3px; cursor: pointer; transition: all 0.2s; margin-left: auto; margin-right: auto; }
     .retake-btn:hover { background: rgba(200,169,81,0.08); border-color: #C8A951; }
